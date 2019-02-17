@@ -97,11 +97,10 @@
 		A888CEEC22177BD2002DADC5 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
-				A888CEED22177BD2002DADC5 /* AppDelegate.swift */,
-				A888CEEF22177BD2002DADC5 /* ViewController.swift */,
-				A888CEF122177BD2002DADC5 /* Main.storyboard */,
-				A888CEF422177BDB002DADC5 /* Assets.xcassets */,
-				A888CEF622177BDB002DADC5 /* LaunchScreen.storyboard */,
+				A8AA42172219C75A00A445D4 /* Model */,
+				A8AA42162219C75500A445D4 /* View */,
+				A8AA42152219C74E00A445D4 /* Controller */,
+				A8AA42142219C73300A445D4 /* Support Files */,
 				A888CEF922177BDB002DADC5 /* Info.plist */,
 			);
 			path = Slider;
@@ -123,6 +122,39 @@
 				A888CF0F22177BDC002DADC5 /* Info.plist */,
 			);
 			path = SliderUITests;
+			sourceTree = "<group>";
+		};
+		A8AA42142219C73300A445D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A888CEED22177BD2002DADC5 /* AppDelegate.swift */,
+				A888CEF422177BDB002DADC5 /* Assets.xcassets */,
+				A888CEF622177BDB002DADC5 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		A8AA42152219C74E00A445D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A888CEEF22177BD2002DADC5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A8AA42162219C75500A445D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A888CEF122177BD2002DADC5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8AA42172219C75A00A445D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
